@@ -6,7 +6,7 @@ public class University {
 	private String name;
 	private Integer universityCategoryId;
 	private Integer prefecturId;
-	private Integer genderCateggoryId;
+	private Integer genderCategoryId;
 
 	public Integer getId() {
 		return id;
@@ -40,18 +40,18 @@ public class University {
 		this.prefecturId = prefecturId;
 	}
 
-	public Integer getGenderCateggoryId() {
-		return genderCateggoryId;
+	public Integer getGenderCategoryId() {
+		return genderCategoryId;
 	}
 
-	public void setGenderCateggoryId(Integer genderCateggoryId) {
-		this.genderCateggoryId = genderCateggoryId;
+	public void setGenderCategoryId(Integer genderCategoryId) {
+		this.genderCategoryId = genderCategoryId;
 	}
 
 	@Override
 	public String toString() {
 		return "University [id=" + id + ", name=" + name + ", universityCategoryId=" + universityCategoryId
-				+ ", prefecturId=" + prefecturId + ", genderCateggoryId=" + genderCateggoryId + "]";
+				+ ", prefecturId=" + prefecturId + ", genderCategoryId=" + genderCategoryId + "]";
 	}
 
 }
